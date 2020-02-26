@@ -1,0 +1,31 @@
+{
+    "name": "adriaanzon/nova-file-shelf",
+    "description": "A Laravel Nova card.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "laravel/nova": "^2.0",
+        "illuminate/support": "^5.8|^6|^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "NovaFileShelf\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NovaFileShelf\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
